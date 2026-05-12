@@ -15,12 +15,34 @@ body{
     color: aliceblue;
     padding: 50px;
 }
+.switch-mode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.toggle{
+background: #07e6a7;
+width: 80px;
+height: 20px;
+border-radius: 10px;
+}
+.switch-on{
+    background: #ffffff;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+position: absolute;
+transform: translateY(-17px);
 
+}
 /* TOP SECTION */
 
 .row{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-bottom: 50px;
 }
